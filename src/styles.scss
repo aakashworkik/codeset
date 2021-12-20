@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+$breakpoints: (
+        xsmall: 380px,
+        small: 576px,
+        medium: 768px,
+        large: 992px,
+        xlarge: 1150px,
+        xxlarge: 1400px,
+        xxxlarge: 1690px,
+);
+
+

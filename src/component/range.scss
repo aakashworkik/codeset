@@ -1,0 +1,35 @@
+.generic-range-stepper {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+
+  @media screen and (min-width: 992px) {
+      // background: red;
+  }
+
+
+  & > &__input {
+    border: 0;
+    width: 92px;
+    background: none;
+    text-align: center;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.8px;
+    line-height: 35px;
+    letter-spacing: 0.508235px;
+    color: #011536;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+  }
+
+  &__icon {
+      font-size: 24px;
+  }
+}
